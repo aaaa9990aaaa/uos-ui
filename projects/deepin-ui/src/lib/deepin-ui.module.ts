@@ -4,9 +4,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 import {CheckboxComponent} from './checkbox/checkbox.component';
+import { ScrollbarComponent } from './scrollbar/scrollbar.component';
 
 const components = [
-  CheckboxComponent
+  CheckboxComponent,ScrollbarComponent
 ]
 const modules = [
   FormsModule,ReactiveFormsModule,CommonModule
